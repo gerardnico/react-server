@@ -26,6 +26,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "jest": "^27.3.1",
+    "tcp-port-used": "^1.0.2",
     "webpack": "^5.64.2",
     "webpack-stream": "^7.0.0"
   },

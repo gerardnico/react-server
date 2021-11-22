@@ -1,14 +1,21 @@
 # React SSR implementation
 
 
+## About
 
-# Reference
+A minimal react ssr implementation to demo the
+SSR server capability of React
 
-* Example: https://github.com/cssinjs/examples/tree/gh-pages/react-ssr
-* [https://redux.js.org/usage/server-rendering](https://redux.js.org/usage/server-rendering)
-* https://reactrouter.com/docs/en/v6/guides/ssr and https://reactrouter.com/docs/en/v6/examples/ssr
+Read how it's done at the [reference article](https://datacadamia.com/web/javascript/react/server)
 
+## Start
 
-# Template
+  * Install the dependencies
+```bash
+yarn install
+```
+  * Build the bundle and start the server in hot reload mode
+```bash
+gulp
+```
 
-https://github.com/reduxjs/cra-template-redux/tree/master/template

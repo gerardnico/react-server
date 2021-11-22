@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    mode: "development",
     entry: ["regenerator-runtime/runtime.js", './src/client.js'],
     output: {
         filename: 'bundle.js',

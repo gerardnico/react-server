@@ -7,7 +7,8 @@ import {configureStore} from "@reduxjs/toolkit";
 import reducers from "./redux/reducers";
 
 const app = Express()
-const port = 3000
+
+const port = process.argv[2] || 3000;
 
 
 //Serve static files
@@ -42,6 +43,7 @@ function handleRender(req, res) {
     // Send the rendered page back to the client
     res.send(renderFullPage(html, preloadedState))
 }
+
 
 function renderFullPage(html, preloadedState) {
     return `
