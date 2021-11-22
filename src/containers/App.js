@@ -7,7 +7,7 @@ function App() {
             <header className="App-header">
                 <Counter/>
                 <p>
-                    Edit <code>src/App.js</code> and save to reload !!!
+                    Edit <code>src/App.js</code>, save and reload.
                 </p>
                 <a
                     className="App-link"
@@ -15,7 +15,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    SSR documentation reference
+                    SSR documentation reference article
                 </a>
 
             </header>
